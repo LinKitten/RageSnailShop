@@ -5,3 +5,49 @@
 .index_swiper swiper swiper-item image {
   width: 100%;
 }
+.index_bigType {
+  width: 100%;
+  padding-top: 20rpx;
+  background-color: #f7f7f7;
+}
+.index_bigType .bigTypeRow {
+  display: flex;
+}
+.index_bigType .bigTypeRow navigator {
+  flex: 1;
+}
+.index_bigType .bigTypeRow navigator image {
+  width: 150rpx;
+}
+.index_hotProduct .product_title {
+  font-size: 32rpx;
+  font-weight: 600;
+  padding: 20rpx;
+  color: var(--themeColor);
+  background-color: #e0e0e0;
+}
+.index_hotProduct .product_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.index_hotProduct .product_list .product_detail {
+  width: 46%;
+  text-align: center;
+  margin: 15rpx;
+}
+.index_hotProduct .product_list .product_detail navigator image {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+.index_hotProduct .product_list .product_detail navigator .product_name {
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.index_hotProduct .product_list .product_detail navigator .product_price {
+  color: var(--themeColor);
+}
+.index_hotProduct .product_list .product_detail navigator button {
+  font-size: 28rpx;
+}

@@ -9,3 +9,58 @@
         }
     }
 }
+
+.index_bigType{
+    width: 100%;
+    padding-top: 20rpx;
+    background-color: #f7f7f7;
+    .bigTypeRow{
+        display: flex; //伸缩盒子
+        navigator{
+            flex: 1;
+            image{
+                width: 150rpx;
+            }
+        }
+    }
+}
+
+.index_hotProduct{
+    .product_title{
+        font-size: 32rpx;
+        font-weight: 600;
+        padding: 20rpx;
+        color: var(--themeColor);
+        background-color: #e0e0e0;
+    }
+    .product_list{
+        display: flex;
+        flex-wrap: wrap; //自动换行
+        .product_detail{
+            width: 46%;
+            text-align: center;
+            margin:15rpx;
+            navigator{
+                image{
+                    width: 100%;
+                    background-color: #f6f6f6;
+                }
+                .product_name{
+                    font-size: 28rpx;
+                    // 文字超过折叠成省略号
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .product_price{
+                    color: var(--themeColor);
+                }
+                button{
+                    font-size: 28rpx;
+                }
+
+            }
+        }
+    }
+
+}

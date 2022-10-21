@@ -4,7 +4,7 @@
   padding: 10rpx;
   background-color: var(--themeColor);
 }
-navigator {
+.search_bar navigator {
   height: 100%;
   display: flex;
   /*伸缩盒子*/
@@ -14,6 +14,6 @@ navigator {
   color: #666;
   border-radius: 15rpx;
 }
-icon {
+.search_bar navigator icon {
   padding-right: 5rpx;
 }
