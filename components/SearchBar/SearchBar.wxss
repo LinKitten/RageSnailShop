@@ -1,0 +1,19 @@
+/* components/SearchBar/SearchBar.wxss */
+.search_bar {
+  height: 90rpx;
+  padding: 10rpx;
+  background-color: var(--themeColor);
+}
+navigator {
+  height: 100%;
+  display: flex;
+  /*伸缩盒子*/
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  color: #666;
+  border-radius: 15rpx;
+}
+icon {
+  padding-right: 5rpx;
+}

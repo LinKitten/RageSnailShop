@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "SearchBar":"/components/SearchBar/SearchBar"   
+  },
+  "navigationBarTitleText": "暴走蜗牛SHOP·首页"
+}

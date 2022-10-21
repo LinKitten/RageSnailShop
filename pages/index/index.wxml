@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<view>
+    <!-- 搜索框 开始 -->
+    <SearchBar></SearchBar>
+    <!-- 搜索框 结束 -->
+    <!-- 轮播图开始 -->
+    <view class="index_swiper">
+        <swiper indicator-dots autoplay circular>
+            <swiper-item wx:for="{{swiperList}}" wx:for-item="swiper" wx:key="id">
+                <navigator>
+                    <image mode="widthFix" src="{{'http://localhost:8080/image/swiper/'+swiper.swiperPic}}"></image>
+                </navigator>
+            </swiper-item>
+
+        </swiper>
+    </view>
+    <!-- 轮播图结束 -->
+</view>
