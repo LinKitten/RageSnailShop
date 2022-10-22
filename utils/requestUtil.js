@@ -1,7 +1,7 @@
 /**
  * 定义请求根路径 baseUrl
  */
-const beasUrl = "http://localhost:8080";
+const beasUrl = "http://10.225.82.104:8080";
 // 返回请求根路径
 export const getBaseUrl=()=>{
     return beasUrl;
