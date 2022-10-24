@@ -19,13 +19,13 @@
     <view class="index_bigType">
         <!-- 第一行 -->
         <view class="bigTypeRow">
-            <navigator wx:for="{{bigTypeList_row1}}" wx:for-item="bigType">
+            <navigator bindtap="handlerTypeJump" data-index="{{index}}" wx:for="{{bigTypeList_row1}}" wx:for-item="bigType">
                 <image mode="widthFix" src="{{baseUrl+'/image/bigType/'+bigType.image}}"></image>
             </navigator>
         </view>
         <!-- 第二行 -->
         <view class="bigTypeRow">
-            <navigator wx:for="{{bigTypeList_row2}}" wx:for-item="bigType">
+            <navigator bindtap="handlerTypeJump" data-index="{{index+5}}" wx:for="{{bigTypeList_row2}}" wx:for-item="bigType">
                 <image mode="widthFix" src="{{baseUrl+'/image/bigType/'+bigType.image}}"></image>
             </navigator>
         </view>

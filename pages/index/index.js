@@ -49,6 +49,18 @@ Page({
     this.getBigTypeList();
     this.getHotProductList();
   },
+  // 金刚区大类点击事件 点击跳转 商品分类页面
+  handlerTypeJump(e) {
+    const { index } = e.currentTarget.dataset; //索引号通过解构获得
+    // 记录要携带过去的下标
+    const app = getApp();
+    app.globalData.index = index;
+    // 实现跳转
+    wx.switchTab({
+      url: '/pages/category/index',
+    })
+  },
+
   // 轮播图获取数据
   async getSwiperList() {
     // requestUtil({ url: "/product/findSwiper", method: "GET" })
