@@ -63,6 +63,13 @@
                 {
                     "name": "SHOP·分类",
                     "pathName": "pages/category/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "商品详情",
+                    "pathName": "pages/product_detail/index",
+                    "query": "id=14",
                     "scene": null
                 }
             ]

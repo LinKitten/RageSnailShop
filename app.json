@@ -4,7 +4,8 @@
     "pages/category/index",
     "pages/cart/index",
     "pages/my/index",
-    "pages/search/index"
+    "pages/search/index",
+    "pages/product_detail/index"
     
   ],
   "window":{

@@ -19,7 +19,9 @@
                     {{productType.name}}
                 </view>
                 <view class="product_list" wx:for="{{productType.productList}}" wx:for-item="product" wx:key="id">
-                    <navigator>
+                    <navigator 
+                    url="/pages/product_detail/index?id={{product.id}}"
+                    >
                         <image mode="widthFix" src="{{baseUrl+'/image/product/'+product.proPic}}"></image>
                         <view class="right">
                             <view class="product_name">{{product.name}}</view>
