@@ -10,13 +10,14 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ff5700",
+
+    "navigationBarBackgroundColor": "#252525",
     "navigationBarTitleText": "暴走蜗牛SHOP",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "color":"#999",
-    "selectedColor":"#ff5700",
+    "selectedColor":"#252525",
     "backgroundColor":"#fafafa",
     "list": [{
       "pagePath": "pages/index/index",

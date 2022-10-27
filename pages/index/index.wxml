@@ -7,7 +7,7 @@
     <view class="index_swiper">
         <swiper indicator-dots autoplay circular>
             <swiper-item wx:for="{{swiperList}}" wx:for-item="swiper" wx:key="id">
-                <navigator>
+                <navigator url="/pages/product_detail/index?={{swiper.id}}">
                     <image mode="widthFix" src="{{baseUrl+'/image/swiper/'+swiper.swiperPic}}"></image>
                 </navigator>
             </swiper-item>
@@ -21,12 +21,14 @@
         <view class="bigTypeRow">
             <navigator bindtap="handlerTypeJump" data-index="{{index}}" wx:for="{{bigTypeList_row1}}" wx:for-item="bigType">
                 <image mode="widthFix" src="{{baseUrl+'/image/bigType/'+bigType.image}}"></image>
+                <view class="bigTypeName" x:for="{{bigTypeList_row1.name}}" wx:for-item="bigType">{{bigType.name}}</view>
             </navigator>
         </view>
         <!-- 第二行 -->
         <view class="bigTypeRow">
             <navigator bindtap="handlerTypeJump" data-index="{{index+5}}" wx:for="{{bigTypeList_row2}}" wx:for-item="bigType">
                 <image mode="widthFix" src="{{baseUrl+'/image/bigType/'+bigType.image}}"></image>
+                <view class="bigTypeName" x:for="{{bigTypeList_row2.name}}" wx:for-item="bigType">{{bigType.name}}</view>
             </navigator>
         </view>
     </view>
@@ -37,7 +39,7 @@
         <view class="product_title">热卖推荐</view>
         <view class="product_list">
             <view class="product_detail" wx:for="{{hotProductList}}" wx:for-item="hotProduct" wx:key="id">
-                <navigator>
+                <navigator url="/pages/product_detail/index?={{hotProduct.id}}">
                     <image mode="widthFix" src="{{baseUrl+'/image/product/'+hotProduct.proPic}}"></image>
                     <view class="product_name">{{hotProduct.name}}</view>
                     <view class="product_price">￥{{hotProduct.price}}</view>

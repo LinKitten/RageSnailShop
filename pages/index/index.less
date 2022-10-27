@@ -13,13 +13,27 @@
 .index_bigType{
     width: 100%;
     padding-top: 20rpx;
-    background-color: #f7f7f7;
+    background-color: #fefefe;
     .bigTypeRow{
         display: flex; //伸缩盒子
         navigator{
             flex: 1;
+            display: flex;
+            flex-direction: column;
             image{
-                width: 150rpx;
+                flex-wrap: 4;
+                width: 90%;
+                display: flex;
+                align-self: center;
+                // border-radius: 50%;
+            }
+            .bigTypeName{
+                flex: 1;
+                font-size: x-small;
+                justify-content: center;
+                text-align: center;
+                color: #666;
+                padding-bottom: 10rpx;
             }
         }
     }
@@ -43,6 +57,7 @@
             navigator{
                 image{
                     width: 100%;
+                    
                     background-color: #f6f6f6;
                 }
                 .product_name{

@@ -8,16 +8,29 @@
 .index_bigType {
   width: 100%;
   padding-top: 20rpx;
-  background-color: #f7f7f7;
+  background-color: #fefefe;
 }
 .index_bigType .bigTypeRow {
   display: flex;
 }
 .index_bigType .bigTypeRow navigator {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 .index_bigType .bigTypeRow navigator image {
-  width: 150rpx;
+  flex-wrap: 4;
+  width: 90%;
+  display: flex;
+  align-self: center;
+}
+.index_bigType .bigTypeRow navigator .bigTypeName {
+  flex: 1;
+  font-size: x-small;
+  justify-content: center;
+  text-align: center;
+  color: #666;
+  padding-bottom: 10rpx;
 }
 .index_hotProduct .product_title {
   font-size: 32rpx;

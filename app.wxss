@@ -11,7 +11,9 @@ page, view, text, swiper, swiper-item, image, navigator {
 /* 全局变量定义 设置主题颜色，字体大小等 */
 page{
     /* 主题颜色 */
-    --themeColor:#ff5700;
+    /* --themeColor:#ff5700; */
+    --themeColor:#252525;
+    --thetwoColor:#ff5700;
     /* 字体大小 rpx自适应尺寸大小 */
     font-size: 28rpx;
 
