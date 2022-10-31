@@ -5,7 +5,8 @@
     "pages/cart/index",
     "pages/my/index",
     "pages/search/index",
-    "pages/product_detail/index"
+    "pages/product_detail/index",
+    "pages/pay/index"
     
   ],
   "window":{

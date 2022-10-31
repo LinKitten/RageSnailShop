@@ -45,10 +45,10 @@
         <view class="iconfont icon-gouwuche"></view>
         <view>购物车</view>
     </navigator>
-    <view class="tool_item btn_cart">
+    <view class="tool_item btn_cart" bindtap="handleCart">
         <view>加入购物车</view>
     </view>
-    <view class="tool_item btn_buy">
+    <view class="tool_item btn_buy" bindtap="handleBuy">
         <view>立即购买</view>
     </view>
 </view>

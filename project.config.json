@@ -71,6 +71,17 @@
                     "pathName": "pages/product_detail/index",
                     "query": "id=14",
                     "scene": null
+                },
+                {
+                    "name": "购物车",
+                    "pathName": "pages/cart/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "确认订单页面",
+                    "pathName": "pages/pay/index",
+                    "scene": null
                 }
             ]
         }
