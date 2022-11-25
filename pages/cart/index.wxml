@@ -11,7 +11,7 @@
             <view>收货人：{{address.userName}},{{address.telNumber}}</view>
             <view>{{address.provinceName+address.cityName+address.countyName+address.detailInfo}}</view>
         </view>
-        <view class="change_address_btn">
+        <view class="change_address_btn" bindtap="handleChooseAddress">
             <button size="mini" plain>更换地址</button>
         </view>
     </view>

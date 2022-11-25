@@ -38,7 +38,7 @@
         "minifyWXSS": true
     },
     "compileType": "miniprogram",
-    "libVersion": "2.12.2",
+    "libVersion": "2.12.3",
     "appid": "wx0efb952c7c4229e6",
     "projectname": "McDonalddDemo",
     "debugOptions": {
@@ -81,6 +81,25 @@
                 {
                     "name": "确认订单页面",
                     "pathName": "pages/pay/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "订单查询页面",
+                    "pathName": "pages/order/index",
+                    "query": "type=0",
+                    "scene": null
+                },
+                {
+                    "name": "商品搜索",
+                    "pathName": "pages/search/index",
+                    "query": "t",
+                    "scene": null
+                },
+                {
+                    "name": "个人中心",
+                    "pathName": "pages/my/index",
+                    "query": "t",
                     "scene": null
                 }
             ]

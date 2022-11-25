@@ -6,7 +6,8 @@
     "pages/my/index",
     "pages/search/index",
     "pages/product_detail/index",
-    "pages/pay/index"
+    "pages/pay/index",
+    "pages/order/index"
     
   ],
   "window":{
@@ -43,5 +44,9 @@
     }]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "requiredPrivateInfos":[
+
+    "chooseAddress"
+    ]
 }

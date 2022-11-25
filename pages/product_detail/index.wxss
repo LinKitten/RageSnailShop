@@ -1,6 +1,6 @@
 /* pages/product_detail/index.wxss */
 .product_swiper swiper {
-  height: 100vw;
+  height: 88vw;
 }
 .product_price {
   padding: 15rpx;
@@ -28,7 +28,9 @@
   padding: 15rpx;
 }
 .desc_tabs .tabs_title .active {
-  background-color: var(--thetwoColor);
+  /* background-color: var(--thetwoColor);
+   */
+   background-image: linear-gradient(90deg, #ffc0cb,#f688bd );
   color: white;
   font-weight: bolder;
 }
@@ -65,7 +67,8 @@
   align-items: center;
   font-size: 28rpx;
   font-weight: 600;
-  background-image: linear-gradient(90deg, #fdcf00, #fd9b00);
+  /* background-image: linear-gradient(90deg, #ffc0cb,#f688bd ); */
+  background-color: #ffc0cb ;
   color: #fff;
   border-bottom-left-radius: 50rpx;
   border-top-left-radius: 50rpx;
@@ -76,7 +79,8 @@
   align-items: center;
   font-size: 28rpx;
   font-weight: 600;
-  background-image: linear-gradient(90deg, #ff7310, #fe3f00);
+  /* background-image: linear-gradient(90deg, #f688bd, #ffc0cb); */
+  background-color: #f688bd ;
   color: #fff;
   border-bottom-right-radius: 50rpx;
   border-top-right-radius: 50rpx;
